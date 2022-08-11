@@ -1,0 +1,9 @@
+sort1 uses: bubble sort
+How do you know?:
+Because when sorted1000, it took the shortest time. Omega N.
+sort2 uses: merge sort
+How do you know?:
+Because when processing mainly biggest data, it took the shortest time, excepted with sorted10000 where Sort 1 beat it reconfirming its bubble sort.
+sort3 uses: selection sort
+How do you know?:
+It took the longest time when sorting sorted data and it was never the fastest time on all the tests. Also by default.

@@ -1,0 +1,24 @@
+Make 2 Pyramids
+  #  #
+ ##  ##
+###  ###
+
+Integer btw 1 and 8
+Height defined by user input
+Gap btw adjacent pyramids is equal to 2 hashes
+
+First:
+- Set integer
+- Set Do While
+- Define & ask user input by get_int inside do program
+- Set parameters to stop program with while
+- Test with printf
+
+Second:
+- Define the parameters of the formula with for
+- for (initial exec; conditional;exec)
+
+ Row:
+ - for(row = 0; row < height; row++)
+ Column:
+ - for (column = 0; column >= row)

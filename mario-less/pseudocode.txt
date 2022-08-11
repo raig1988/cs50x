@@ -1,0 +1,46 @@
+Pyramid build a la Mario
+It has to be a positive integer between 1 and 8 inclusive
+User can input any height to build pyramid
+Running program:
+$ ./mario
+Height:
+If user sets an incorrect number, program should ask again
+
+Prompt for input
+get_int to ask for an int as an input
+add aditional logic to be between 1 and 8
+using a loop may help to ask again the user
+While loops
+while (condition)
+{
+    // something happens
+}
+do while loops (this allows us to ask again and again)
+do
+{
+    // something happens
+}
+while (condition);
+boolean expression (condition)
+x  > 0 && x < 10
+
+    int height, row, column, space;
+    do
+    {
+        height = get_int("Height: ");
+    }
+    while (height < 1 || height > 8);
+
+    for (row = 0; row < height; row++)
+    {
+        for (space = 0; space < height - row - 1; space++)
+        {
+            printf(" ");
+        }
+        for (column = 0; column <= row; column++)
+        {
+            printf("#");
+        }
+        // lines
+        printf("\n");
+            }
